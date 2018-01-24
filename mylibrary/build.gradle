@@ -22,6 +22,17 @@ android {
         }
     }
 
+    flavorDimensions "libType"
+
+    productFlavors {
+        typeA {
+            dimension "libType"
+        }
+        typeB {
+            dimension "libType"
+        }
+    }
+
 }
 
 dependencies {
